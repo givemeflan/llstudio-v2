@@ -1,0 +1,670 @@
+/* CSS for HOMEPAGE */
+:root{
+	--font-style:'Playfair Display', serif;
+}
+
+#section1 {
+	background-color: #343D46;
+}
+
+#section2 {
+	height: 750px;
+}
+
+.logo-area {
+	padding-left: 10px;
+}
+
+.navbar-style {
+	list-style-type: none;
+	position: relative;
+	top: 15px;
+	width: 71%;
+	margin: 0 auto;
+}
+
+li a {
+	color: #F1CF93;
+	font-size: 45px;
+	line-height: 1.6em;
+	font-family: 'Playfair Display', serif;
+}
+
+li a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#main-title {
+	top: 63%;
+	bottom: 50%;
+	left: 10%;
+	position: absolute;
+	
+}
+
+
+
+h1 {
+	color: #343D46;
+	/* font-weight: 700px; */
+	font-family: var(--font-style);
+	/* font-family: 'Raleway', sans-serif; */
+}
+
+h2 {
+	color: #343D46;
+	font-family: var(--font-style);
+}
+
+
+/* About Section/Personal Bio */
+
+.about-sec {
+	background-color: #E4EBE7;
+	padding: 60px 0px 60px 0px;
+}
+
+
+/* Projects Section  */
+
+.projects-sec {
+	background-color: #F4F5F0;
+	padding: 60px 0px 68px 0px;
+}
+
+
+#projects-title {
+	text-align: center;
+	color: #D3AE6E;
+}
+
+.item-pic {
+	position: relative;
+	width: 100%;
+}
+
+.image-fade {
+	display: block;
+	width: 100%;
+}
+
+.image-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.60);
+	color: #E4EBE7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.image-overlay:hover {
+	opacity: 1;
+}
+
+.image-overlay:hover>* {
+	transform: translateY(0);
+}
+
+.image-overlay>* {
+	transform: translateY(10px);
+	transition: transform 0.3s;
+}
+
+.image-text {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 550;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #343D46;
+	background-color: #343D46;
+	border-radius: 4px;
+	padding: 11px 11px 11px 11px;
+}
+
+#projects-title-bottom {
+	text-align: center;
+	color: #D3AE6E;
+	margin-top: 50px;
+}
+
+#hammer-tools {
+	margin-left: 10px;
+}
+
+
+/* Resume Section */
+
+.resume-sec {
+	padding: 66px 0px 70px 0px;
+	background-color: #E4EBE7;
+}
+
+#resume-title {
+	font-family: 'Playfair Display', serif;
+	color: #343D46;
+}
+
+.right-col-sec {
+	padding-left: 20px;
+}
+
+#main-headline {
+	padding-top: 70px;
+	font-size: 58px;
+	font-family: 'Playfair Display', serif;
+	color: #D3AE6E;
+}
+
+#profile-p {
+	line-height: 1.2;
+	text-align: left;
+}
+
+.volunteer-p {
+	margin-top: -15px;
+	color: #919CA8;
+	color: #919CA8;
+	color: #919CA8;
+}
+
+.education-sec {
+	padding-top: 12px;
+}
+
+.education-p {
+	margin-top: -5px;
+	color: #919CA8;
+	font-size: 16.5px;
+}
+
+.experience-area {
+	padding-top: 10px;
+	color: #919CA8;
+}
+
+.experience-sec {
+	margin-top: 25px;
+	padding-top: 6px;
+	color: #919CA8;
+}
+
+.experience-p {
+	color: #89A4AB;
+	margin-top: -10px;
+	text-align: left;
+	font-size: 16.5px;
+}
+
+.skills-sec {
+	padding-top: 12px;
+}
+
+.skills-details {
+	color: #919CA8;
+	font-size: 16.5px;
+}
+
+.volunteer-p {
+	font-size: 16.5px;
+}
+
+h4 {
+	font-size: 21px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #343D46;
+}
+
+h5 {
+	text-decoration: underline;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #343D46;
+}
+
+.col1-row3 {
+	margin-top: 40px;
+	text-align: left;
+	width: 80%;
+	margin-left: 25px;
+}
+
+.resumeh6 {
+	text-align: left;
+	color: #D3AE6E;
+	font-size: 18px;
+}
+
+.right-col-sec {
+	margin-top: 25px;
+}
+
+.fas fa-globe {
+	color: #919CA8;
+}
+
+.resume-link {
+	color: #343D46;
+	font-size: 36px;
+	
+}
+
+.resume-link:hover {
+	text-decoration: none;
+	color: #89A4AB;
+}
+
+
+/* Career Summary Section */
+
+/* #summary-sec {
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+#summary-button {
+	margin-top: 25px;
+}
+
+#pdf-link {
+	font-size: 24px;
+	text-decoration: none;
+	color: #D3AE6E;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: #D3AE6E;
+	padding: 11px 11px 11px 11px;
+}
+
+#pdf-link:hover {
+	color: #343D46;
+	background-color: #E4EBE7;
+	border-color: #E4EBE7;
+}
+
+#career-title {
+	color: #D3AE6E;
+	font-family: 'Playfair Display', serif;
+} */
+
+
+/* Footer Section */
+
+.footer-area {
+	background-color: #343D46;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #4f5b66;
+	padding-top: 12px;
+	padding-bottom: 7px;
+}
+
+h6 {
+	text-align: center;
+	padding-top: 10px;
+	color: #F3EAC0;
+}
+
+.links-sec {
+	list-style-type: none;
+	text-align: center;
+	color: #F3EAC0;
+	font-size: 12px;
+}
+
+.links-sec li {
+	display: inline;
+}
+
+.links-sec li:hover {
+	color: #89A4AB;
+}
+
+.footer-links {
+	font-size: 12px;
+	color: #F3EAC0;
+	font-family: 'Lato', sans-serif;
+}
+
+.footer-links:hover {
+	color: #89A4AB;
+}
+
+.page-footer {
+	background-color: #343D46;
+	color: #F3EAC0;
+	font-size: 12px;
+}
+
+#kitty-logo,
+#linkedin,
+#email {
+	color: #F3EAC0;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 12px;
+}
+
+#kitty-logo:hover,
+#linkedin:hover,
+#email:hover {
+	color: #89A4AB;
+}
+
+.contact-title {
+	padding-top: 10px;
+}
+
+
+/* Media Query for Mobile */
+
+@media screen and (max-width: 600px) {
+	/* .navbar-style{
+        top: 0px;
+    } */
+	li a {
+		color: #F1CF93;
+		font-size: 35px;
+		padding-bottom: 10px;
+	}
+	#section1 {
+		display: none;
+	}
+	.navbar-hamburger {
+		list-style-type: none;
+		padding-top: 20px;
+	}
+	.about-sec,
+	.projects-sec,
+	.resume-sec,
+	h1 {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#section2 {
+		height: 400px;
+		background-image: url('assets/images/flat-lay.jpg');
+		background-position: 100%;
+	}
+
+	h1 {
+		width: 60%;
+		padding-left: 20px;
+		padding-right: 10px;
+		margin-top: 140px;
+		line-height: 52px;
+		font-size: 35px;
+	}
+	h2 {
+		padding-bottom: 5px;
+	}
+	h3 {
+		text-align: center;
+		font-family: 'Raleway', sans-serif;
+		font-size: 22px;
+		color: #89A4AB;
+	}
+	h4 {
+		text-align: left;
+	}
+	#main-title {
+		top:20%;
+	}
+	#main-title  > h1 {
+		width: 60%;
+		margin-top: 0px;
+		padding-left: 20px;
+		padding-right: 10px;
+		font-size: 35px;
+	}
+	.education-sec {
+		margin-top: -7px;
+	}
+	.education-p {
+		text-align: left;
+	}
+	.experience-area {
+		margin-bottom: -5px;
+	}
+	#resume-title,
+	#projects-title {
+		padding-top: 10px;
+	}
+	.container {
+		margin: 0 auto;
+		width: 100%;
+	}
+	/* .about-box {
+		border-width: 5px;
+		border-style: dashed;
+		border-color: white;
+		padding: 25px 10px 25px 10px;
+	} */
+	.summary-box {
+		border-width: 5px;
+		border-style: dashed;
+		border-color: white;
+		padding: 25px 10px 25px 10px;
+	}
+	#project {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	.resume-sec {
+		padding-bottom: 40px;
+	}
+	#kitty-logo:hover {
+		color: #89A4AB;
+	}
+	.links-sec li:hover {
+		color: #89A4AB;
+	}
+	.projects-sec {
+		padding-bottom: 50px;
+	}
+	#etsy-link:hover {
+		color: #343D46;
+		background-color: #E4EBE7;
+		border-color: #E4EBE7;
+	}
+	.item-pic {
+		position: relative;
+		width: 100%;
+	}
+	.image-fade {
+		display: block;
+		width: 100%;
+	}
+	.image-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(255, 255, 255, 0.75);
+		color: #E4EBE7;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		opacity: 0;
+		transition: opacity 0.3s;
+	}
+	.image-overlay:hover {
+		opacity: 1;
+	}
+	.image-overlay:hover>* {
+		transform: translateY(0);
+	}
+	.image-overlay>* {
+		transform: translateY(10px);
+		transition: transform 0.3s;
+	}
+	.image-text {
+		font-size: 20px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 550;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #343D46;
+		background-color: #343D46;
+		border-radius: 4px;
+		padding: 10px 11px 10px 11px;
+	}
+	.footer-links {
+		font-size: 14px;
+	}
+	.item-pic {
+		padding-bottom: 30px;
+	}
+	#projects-title-bottom {
+		text-align: center;
+		color: #D3AE6E;
+		margin-top: 30px;
+	}
+	#summary-button {
+		margin-top: 35px;
+	}
+
+/* Project Page CSS  */
+	.item-pic{
+		margin-top: 30px;
+	}
+}
+@media screen and (min-width: 1025px) {
+	.navhamburger {
+		display: none;
+	}	
+}
+@media screen and (max-width: 1025px) {
+	#section1{
+		display: none;
+	}	
+	#section2{
+		flex:0 0 100%;
+	}
+}
+/* @media screen and (min-width: 992px) {
+	#section2{
+		flex:0 0 100%;
+	}
+} */
+
+@media screen and (min-width: 768px) {
+
+	h1{
+		font-size: 60px;	
+	}
+
+	#section2 {
+		background-image: url('assets/images/flat-lay.jpg');
+		background-position: 100%;
+	}
+	.paragraph-area {
+		width: 700px;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 20px;
+		padding-bottom: 10px;
+		padding-top: 6px;
+		font-family: 'Raleway', sans-serif;
+	}
+	h2 {
+		text-align: center;
+	}
+	h3 {
+		text-align: center;
+		font-family: 'Raleway', sans-serif;
+		font-size: 24px;
+		color: #89A4AB;
+		padding-top: 12px;
+	}
+	/* .about-box {
+		border-width: 5px;
+		border-style: dashed;
+		border-color: white;
+		width: 840px;
+		margin: 0 auto;
+		padding-top: 25px;
+		padding-bottom: 35px;
+		background-color:red;
+	} */
+
+	#project-pic{
+		margin-top: 43px;
+	}
+
+	.image-title{
+		margin-top: 45px;
+		text-align: center;
+		color: #343D46;
+		font-family: 'Playfair Display', serif;
+	}
+
+	#project {
+		padding-top: 30px;
+		
+	}
+}
+
+/* @media only screen and (max-width: 600px) and (min-width: 400px) */
+/* .navbar-style{
+ width: 800px;
+} */
+
+/* #section2 {
+	height: 750px;
+} */
+
+/* .logo-area {
+	padding-right: 30px;
+} */
+
+/* .navbar-style {
+	list-style-type: none;
+	position: relative;
+	top: 15px;
+	width: 71%;
+	margin: 0 auto;
+}
+
+li a {
+	color: #F1CF93;
+	font-size: 45px;
+	line-height: 1.6em;
+	font-family: 'Playfair Display', serif;
+}
+
+li a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#main-title {
+	top: 63%;
+	bottom: 50%;
+	left: 10%;
+	position: absolute;
+}
+
+h1 {
+	color: #343D46;
+	font-size: 65px;
+	font-weight: 700px;
+	font-family: 'Playfair Display', serif;
+} */
+
