@@ -335,7 +335,7 @@ h6 {
 }
 
 .footer-links {
-	font-size: 12px;
+	font-size: 13.15px;
 	color: #F3EAC0;
 	font-family: 'Lato', sans-serif;
 }
@@ -347,7 +347,7 @@ h6 {
 .page-footer {
 	background-color: #343D46;
 	color: #F3EAC0;
-	font-size: 12px;
+	font-size: 13.15px;
 }
 
 #kitty-logo,
@@ -619,6 +619,23 @@ h6 {
 		padding-top: 30px;
 		
 	}
+
+	.github-link{
+		color: #919CA8;
+		font-size: 16.5px;
+	}
+
+	.github-link:hover{
+		text-decoration: none;
+		color: #89A4AB;
+	}
+
+	.github-link:hover {
+		text-decoration: none;
+		color: #343D46;
+		
+	}
+	
 }
 
 /* @media only screen and (max-width: 600px) and (min-width: 400px) */
