@@ -544,6 +544,16 @@ h6 {
 	.item-pic{
 		margin-top: 30px;
 	}
+
+	.github-link{
+		color: #919CA8;
+		font-size: 16.5px;
+	}
+
+	.github-link:hover{
+		text-decoration: none;
+		color: #89A4AB;
+	}
 }
 @media screen and (min-width: 1025px) {
 	.navhamburger {
